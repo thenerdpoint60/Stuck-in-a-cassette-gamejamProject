@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5201017388386671288
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5201017388386671290}
+  - component: {fileID: 5201017388386671289}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: AudioManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5201017388386671290
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5201017388386671288}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5201017388386671289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5201017388386671288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58299d15ae88fec4f8b2b3ef6bb5923e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Shotgun
+    clip: {fileID: 8300000, guid: 2f4c929c35cb10340bb9388fb32bf41f, type: 3}
+    loop: 0
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Sniper
+    clip: {fileID: 8300000, guid: 41c2a0357f07643488bd887b74979c95, type: 3}
+    loop: 0
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Automatic gun
+    clip: {fileID: 8300000, guid: 1bbd5a4932a3bd949bd249eed8a4ed19, type: 3}
+    loop: 0
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Theme
+    clip: {fileID: 8300000, guid: a65c0f3a66a80e143a647671b0a819f7, type: 3}
+    loop: 1
+    volume: 0.2
+    pitch: 1
+    source: {fileID: 0}
+  - name: Helicopter beep
+    clip: {fileID: 8300000, guid: ffc764e24a85a6845bf30d8afc47161f, type: 3}
+    loop: 0
+    volume: 0.6
+    pitch: 1
+    source: {fileID: 0}
+  - name: Tank beep
+    clip: {fileID: 8300000, guid: a754c637171bfc44ba97a683ec3e1837, type: 3}
+    loop: 0
+    volume: 0.6
+    pitch: 1
+    source: {fileID: 0}
+  - name: Instant reload
+    clip: {fileID: 8300000, guid: 55d4858266bd5ae4f89ccf1d61ab77fe, type: 3}
+    loop: 0
+    volume: 0.6
+    pitch: 1
+    source: {fileID: 0}
+  - name: Time stop
+    clip: {fileID: 8300000, guid: e204144839660da4ca5e053f5a2d54e9, type: 3}
+    loop: 0
+    volume: 0.6
+    pitch: 1
+    source: {fileID: 0}
+  - name: Time warp
+    clip: {fileID: 8300000, guid: d93044e3cdea9ee47af656b7decb655d, type: 3}
+    loop: 0
+    volume: 0.6
+    pitch: 1
+    source: {fileID: 0}
+  - name: Time warp rewind
+    clip: {fileID: 8300000, guid: eaa75b4be7a221f448cba3fbd22b1f4a, type: 3}
+    loop: 0
+    volume: 0.6
+    pitch: 1
+    source: {fileID: 0}
+  - name: Rocket launcher
+    clip: {fileID: 8300000, guid: 368c4d5be4d2d3a49a18f4c6d648fd4d, type: 3}
+    loop: 0
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Time stop
+    clip: {fileID: 8300000, guid: e204144839660da4ca5e053f5a2d54e9, type: 3}
+    loop: 0
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Instant reload
+    clip: {fileID: 8300000, guid: 55d4858266bd5ae4f89ccf1d61ab77fe, type: 3}
+    loop: 0
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Time warp
+    clip: {fileID: 8300000, guid: d93044e3cdea9ee47af656b7decb655d, type: 3}
+    loop: 0
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Time warp rewind
+    clip: {fileID: 8300000, guid: eaa75b4be7a221f448cba3fbd22b1f4a, type: 3}
+    loop: 0
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Time bonus
+    clip: {fileID: 8300000, guid: fb480be4305b6564dafdf4479b3328dd, type: 3}
+    loop: 0
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
